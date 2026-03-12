@@ -8,12 +8,12 @@ export const PROGRAMS: Record<UserKey, DayProgram[]> = {
     },
     {
       day: "Tue", label: "Lower Power", type: "strength",
-      exercises: ["barbell_squat", "deadlift", "front_squat", "kb_swing", "ab_wheel"],
+      exercises: ["barbell_squat", "deadlift", "bulgarian_split_squat", "kb_swing", "ab_wheel"],
     },
     {
-      day: "Wed", label: "Active Rest / Core", type: "rest",
-      exercises: ["farmer_walk", "plank", "ab_wheel"],
-      note: "Light day — loaded carries, core, and mobility.",
+      day: "Wed", label: "Active Recovery", type: "rest",
+      exercises: ["farmer_walk", "mobility_flow", "plank", "ab_wheel"],
+      note: "Low-intensity day — loaded carries, mobility flow, and core.",
     },
     {
       day: "Thu", label: "Upper Pull", type: "strength",
@@ -21,7 +21,7 @@ export const PROGRAMS: Record<UserKey, DayProgram[]> = {
     },
     {
       day: "Fri", label: "HIIT + Power", type: "hiit",
-      exercises: ["push_press", "thruster", "ball_slam", "kb_circuit"],
+      exercises: ["push_press", "thruster", "ball_slam", "kb_circuit", "burpees"],
     },
     { day: "Sat", label: "Rest", type: "rest", exercises: [], note: "Recovery. Walk, stretch, hydrate." },
     { day: "Sun", label: "Rest", type: "rest", exercises: [], note: "Recovery. Walk, stretch, hydrate." },

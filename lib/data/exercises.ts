@@ -420,6 +420,40 @@ export const EXERCISES: Record<string, Exercise> = {
     safetyNotes: "If lower back arches at any point, you've gone too far. Reduce range of motion.",
     videoSrc: "/videos/exercises/ab-wheel.mp4",
   },
+  burpees: {
+    name: "Burpees",
+    sets: 4, reps: "10", rest: 45,
+    equipment: "Bodyweight",
+    muscles: "Full Body, Cardio",
+    cue: "Drop to floor, chest down, push up, jump up explosively. No resting.",
+    anim: "squat",
+    instructions: [
+      "Stand tall. Drop into a squat, plant hands on floor shoulder-width.",
+      "Jump or step feet back to plank. Lower chest to floor — full push-up.",
+      "Push up explosively, jump feet forward to hands. Feet land outside hands.",
+      "Drive up and jump, reaching arms overhead. Full hip extension at top.",
+      "Land soft, immediately drop into next rep. Continuous movement — the rest comes between sets, not reps.",
+    ],
+    reasoning: "The ultimate bodyweight conditioning finisher. Trains every major muscle group through a full range while spiking heart rate higher than almost any other exercise. Posterior chain works hard on the jump and hip extension phases — adds metabolic completeness to Friday's power session.",
+    videoSrc: "/videos/exercises/burpees.mp4",
+  },
+  mobility_flow: {
+    name: "Mobility Flow",
+    sets: 2, reps: "5 min", rest: 0,
+    equipment: "Mat",
+    muscles: "Hips, Thoracic Spine, Ankles, Shoulders",
+    cue: "World's greatest stretch → hip 90/90 → cat-cow → deep squat hold.",
+    anim: "plank",
+    instructions: [
+      "World's Greatest Stretch: lunge, plant hand, rotate and reach to ceiling. 5 each side.",
+      "Hip 90/90: sit with both legs at 90°, rotate hips side to side. 30 seconds each position.",
+      "Cat-Cow: on all fours, alternate between arching and rounding spine. 10 reps slowly.",
+      "Deep Squat Hold: sit into a deep squat, elbows pushing knees out. Hold 30-60 seconds.",
+      "Flow through continuously — no rushing. Focus on breathing into tight positions.",
+    ],
+    reasoning: "Active recovery that maintains range of motion for heavy compound lifts. Specifically targets hips, thoracic spine, and ankles — the three areas that limit squat and deadlift depth. Low CNS cost, high recovery value.",
+    videoSrc: "/videos/exercises/mobility-flow.mp4",
+  },
 
   // ── CAITLYN ─────────────────────────────────────────────
   goblet_squat: {
@@ -475,7 +509,7 @@ export const EXERCISES: Record<string, Exercise> = {
   },
   bulgarian_split_squat: {
     name: "Bulgarian Split Squat",
-    sets: 3, reps: "10 ea", rest: 60,
+    sets: 3, reps: "8-10 ea", rest: 60,
     equipment: "Dumbbells + Bench",
     muscles: "Quads, Glutes",
     cue: "Rear foot elevated on bench, lower straight down, drive through front heel.",
