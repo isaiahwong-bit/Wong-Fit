@@ -67,6 +67,14 @@ export const useWorkoutStore = create<WorkoutState>()(
         );
       },
     }),
-    { name: "wong-fit-workout" }
+    {
+      name: "wong-fit-workout",
+      onRehydrateStorage: () => (state) => {
+        // Always reset activeDay to today on page load
+        if (state) {
+          state.setActiveDay(getTodayIndex());
+        }
+      },
+    }
   )
 );
